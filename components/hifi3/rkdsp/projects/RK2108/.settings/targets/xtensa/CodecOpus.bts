@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BuildTarget tool="xtensa" version="1.0">
+    <BuildSettings>
+        <BaseSettings path="project">
+            <PreprocessorOptions>
+                <KeyValueListMapOptions>
+                    <KeyValueListMapEntry>
+                        <key>Defines</key>
+                        <value flag="-D" inheritance="append">
+                            <ListEntry key="CONFIG_TRACE_ENABLE" value="1"/>
+                            <ListEntry key="CONFIG_SOC_RK2108" value="1"/>
+                            <ListEntry key="CONFIG_VERSION_CHECK" value="0"/>
+                            <ListEntry key="CONFIG_XIP_CODE" value="0"/>
+                            <ListEntry key="CONFIG_XIP_DATA" value="0"/>
+                            <ListEntry key="ENABLE_AUDIO_CODEC" value="1"/>
+                            <ListEntry key="ENABLE_OPUS_DECODE" value="1"/>
+                            <ListEntry key="ENABLE_OPUS_ENCODE" value="1"/>
+                            <ListEntry key="OUTSIDE_SPEEX" value="1"/>
+                            <ListEntry key="RANDOM_PREFIX" value="libopusenc"/>
+                            <ListEntry key="OPUSENC_DISABLE_RESAMPLE" value="0"/>
+                            <ListEntry key="ENABLE_HIFI3_ASM" value="1"/>
+                            <ListEntry key="ENABLE_OPUS_TEST" value="0"/>
+                        </value>
+                    </KeyValueListMapEntry>
+                </KeyValueListMapOptions>
+            </PreprocessorOptions>
+            <CompilerOptions>
+                <SingleFlagMapOptions>
+                    <SingleFlagMapEntry>
+                        <key>UseDspCoprocessor</key>
+                        <value flag="-mcoproc" use="true"/>
+                    </SingleFlagMapEntry>
+                    <SingleFlagMapEntry>
+                        <key>CompilerEnableLongCall</key>
+                        <value flag="-mlongcalls" use="true"/>
+                    </SingleFlagMapEntry>
+                    <SingleFlagMapEntry>
+                        <key>OptimizeSpace</key>
+                        <value flag="-Os" use="true"/>
+                    </SingleFlagMapEntry>
+                    <SingleFlagMapEntry>
+                        <key>DataSections</key>
+                        <value flag="-fdata-sections" use="true"/>
+                    </SingleFlagMapEntry>
+                    <SingleFlagMapEntry>
+                        <key>FunctionSections</key>
+                        <value flag="-ffunction-sections" use="true"/>
+                    </SingleFlagMapEntry>
+                </SingleFlagMapOptions>
+                <FlagValueMapOptions>
+                    <FlagValueMapEntry>
+                        <key>Debug</key>
+                        <value level="-3" flag="-g" use="true"/>
+                    </FlagValueMapEntry>
+                    <FlagValueMapEntry>
+                        <key>Optimization</key>
+                        <value level="3" flag="-O" use="true"/>
+                    </FlagValueMapEntry>
+                </FlagValueMapOptions>
+            </CompilerOptions>
+            <AssemblerOptions>
+                <SingleFlagMapOptions>
+                    <SingleFlagMapEntry>
+                        <key>AssemblerLongCall</key>
+                        <value flag="--longcalls" use="true"/>
+                    </SingleFlagMapEntry>
+                </SingleFlagMapOptions>
+            </AssemblerOptions>
+            <LinkerOptions>
+                <SingleFlagMapOptions>
+                    <SingleFlagMapEntry>
+                        <key>EmbedMapInfo</key>
+                        <value flag="--xt-map" use="true"/>
+                    </SingleFlagMapEntry>
+                </SingleFlagMapOptions>
+                <BooleanMapOptions>
+                    <BooleanMapEntry>
+                        <key>CreateMinsize</key>
+                        <value selected="true"/>
+                    </BooleanMapEntry>
+                    <BooleanMapEntry>
+                        <key>GenerateMapFile</key>
+                        <value selected="true"/>
+                    </BooleanMapEntry>
+                </BooleanMapOptions>
+                <StringListMapOptions>
+                    <StringListMapEntry>
+                        <key>LinkerAdditionalOptions</key>
+                        <value flag="" inheritance="append">
+                            <ListEntry>-Wl,-gc-sections</ListEntry>
+                        </value>
+                    </StringListMapEntry>
+                </StringListMapOptions>
+                <LinkerSupport custom="true" key="-mlsp=" value="${xt_project_loc}\map\min-rt-opus-xip"/>
+            </LinkerOptions>
+        </BaseSettings>
+        <OverriddenSettings>
+            <OverriddenSettingsEntry>
+                <key>drivers/uart/uart.cpp</key>
+                <value path="drivers/uart/uart.cpp">
+                    <CompilerOptions>
+                        <FlagValueMapOptions>
+                            <FlagValueMapEntry>
+<key>Optimization</key>
+<value level="0" flag="-O" use="true"/>
+                            </FlagValueMapEntry>
+                        </FlagValueMapOptions>
+                    </CompilerOptions>
+                </value>
+            </OverriddenSettingsEntry>
+            <OverriddenSettingsEntry>
+                <key>drivers/uart</key>
+                <value path="drivers/uart">
+                    <CompilerOptions>
+                        <FlagValueMapOptions>
+                            <FlagValueMapEntry>
+<key>Optimization</key>
+<value level="2" flag="-O" use="true"/>
+                            </FlagValueMapEntry>
+                        </FlagValueMapOptions>
+                    </CompilerOptions>
+                </value>
+            </OverriddenSettingsEntry>
+            <OverriddenSettingsEntry>
+                <key>drivers/io</key>
+                <value path="drivers/io">
+                    <CompilerOptions>
+                        <FlagValueMapOptions>
+                            <FlagValueMapEntry>
+<key>Optimization</key>
+<value level="2" flag="-O" use="true"/>
+                            </FlagValueMapEntry>
+                        </FlagValueMapOptions>
+                    </CompilerOptions>
+                </value>
+            </OverriddenSettingsEntry>
+        </OverriddenSettings>
+    </BuildSettings>
+</BuildTarget>

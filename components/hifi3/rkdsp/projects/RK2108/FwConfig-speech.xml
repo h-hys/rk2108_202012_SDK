@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HifiFirmwareGen>
+	<Firmware>
+		<Version>V0.1.0</Version>
+		<CoreName>tag_corename</CoreName>
+		<ToolsPath>tag_toolspath</ToolsPath>
+		<Compatible>RK2108</Compatible>
+		<ExecutableFile>input\RK2108</ExecutableFile>
+		<MaxCodeSize>0x10000</MaxCodeSize>
+		<MaxDataSize>0x80000</MaxDataSize>
+		<ExternalDataMemStart>0x60200000</ExternalDataMemStart>
+		<ExternalDataMemEnd>0x60280000</ExternalDataMemEnd>
+		<Image>
+			<Id>2046</Id>
+			<Name>MAIN</Name>
+			<Type>Permanent</Type>
+		</Image>
+	</Firmware>
+</HifiFirmwareGen>

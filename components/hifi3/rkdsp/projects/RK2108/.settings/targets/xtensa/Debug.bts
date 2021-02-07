@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BuildTarget tool="xtensa" version="1.0">
+    <BuildSettings>
+        <BaseSettings path="project">
+            <PreprocessorOptions>
+                <StringListMapOptions>
+                    <StringListMapEntry>
+                        <key>Includes</key>
+                        <value flag="-I" inheritance="prepend">
+                            <ListEntry>${xt_project_loc}\..\library\libasr\include</ListEntry>
+                        </value>
+                    </StringListMapEntry>
+                </StringListMapOptions>
+                <KeyValueListMapOptions>
+                    <KeyValueListMapEntry>
+                        <key>Defines</key>
+                        <value flag="-D" inheritance="append">
+                            <ListEntry key="CONFIG_TRACE_ENABLE" value="1"/>
+                            <ListEntry key="CONFIG_SOC_RK2108" value="1"/>
+                            <ListEntry key="ENABLE_ASR" value="1"/>
+                            <ListEntry key="ENABLE_AEC" value="0"/>
+                            <ListEntry key="ENABLE_ASR_PROCESS" value="0"/>
+                            <ListEntry key="ENABLE_KWS" value="0"/>
+                            <ListEntry key="ENABLE_SPEECH" value="0"/>
+                        </value>
+                    </KeyValueListMapEntry>
+                </KeyValueListMapOptions>
+            </PreprocessorOptions>
+            <CompilerOptions>
+                <SingleFlagMapOptions>
+                    <SingleFlagMapEntry>
+                        <key>CompilerEnableLongCall</key>
+                        <value flag="-mlongcalls" use="true"/>
+                    </SingleFlagMapEntry>
+                    <SingleFlagMapEntry>
+                        <key>OptimizeSpace</key>
+                        <value flag="-Os" use="true"/>
+                    </SingleFlagMapEntry>
+                </SingleFlagMapOptions>
+                <FlagValueMapOptions>
+                    <FlagValueMapEntry>
+                        <key>Debug</key>
+                        <value level="-3" flag="-g" use="true"/>
+                    </FlagValueMapEntry>
+                    <FlagValueMapEntry>
+                        <key>Optimization</key>
+                        <value level="0" flag="-O" use="true"/>
+                    </FlagValueMapEntry>
+                </FlagValueMapOptions>
+                <StringListMapOptions>
+                    <StringListMapEntry>
+                        <key>CompilerAdditionalOptions</key>
+                        <value flag="" inheritance="append">
+                            <ListEntry>-Wl,--gc-sections</ListEntry>
+                        </value>
+                    </StringListMapEntry>
+                </StringListMapOptions>
+            </CompilerOptions>
+            <AssemblerOptions>
+                <SingleFlagMapOptions>
+                    <SingleFlagMapEntry>
+                        <key>AssemblerLongCall</key>
+                        <value flag="--longcalls" use="true"/>
+                    </SingleFlagMapEntry>
+                </SingleFlagMapOptions>
+            </AssemblerOptions>
+            <LinkerOptions>
+                <BooleanMapOptions>
+                    <BooleanMapEntry>
+                        <key>CreateMinsize</key>
+                        <value selected="true"/>
+                    </BooleanMapEntry>
+                    <BooleanMapEntry>
+                        <key>GenerateMapFile</key>
+                        <value selected="true"/>
+                    </BooleanMapEntry>
+                </BooleanMapOptions>
+                <StringListMapOptions>
+                    <StringListMapEntry>
+                        <key>LibrarySearchPath</key>
+                        <value flag="-L" inheritance="prepend">
+                            <ListEntry>${xt_project_loc}\..\..\library\libasr</ListEntry>
+                        </value>
+                    </StringListMapEntry>
+                    <StringListMapEntry>
+                        <key>LinkerAdditionalOptions</key>
+                        <value flag="" inheritance="append">
+                            <ListEntry>-lasr</ListEntry>
+                        </value>
+                    </StringListMapEntry>
+                </StringListMapOptions>
+                <LinkerSupport custom="true" key="-mlsp=" value="${xt_project_loc}\map\min-rt-vad-256K"/>
+            </LinkerOptions>
+        </BaseSettings>
+        <OverriddenSettings>
+            <OverriddenSettingsEntry>
+                <key>drivers/uart/uart.cpp</key>
+                <value path="drivers/uart/uart.cpp">
+                    <CompilerOptions>
+                        <FlagValueMapOptions>
+                            <FlagValueMapEntry>
+<key>Optimization</key>
+<value level="0" flag="-O" use="true"/>
+                            </FlagValueMapEntry>
+                        </FlagValueMapOptions>
+                    </CompilerOptions>
+                </value>
+            </OverriddenSettingsEntry>
+        </OverriddenSettings>
+    </BuildSettings>
+</BuildTarget>

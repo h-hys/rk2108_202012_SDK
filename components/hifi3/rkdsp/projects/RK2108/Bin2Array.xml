@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BinaryToArray>
+    <Type>const unsigned char</Type>
+    <Name>dsp_fw</Name>
+    <Input>output/rkdsp.bin</Input>
+    <Output>output/rkdsp_fw.c</Output>
+</BinaryToArray>

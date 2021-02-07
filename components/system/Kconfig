@@ -1,0 +1,5 @@
+menu "System"
+
+source "$RTT_DIR/components/system/LittlevGL2RTT/Kconfig"
+
+endmenu

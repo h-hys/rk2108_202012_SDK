@@ -1,0 +1,7 @@
+.tag                    export-subst
+.gitignore              export-ignore
+.gitattributes          export-ignore
+.uncrustify.cfg         export-ignore
+hal_demo.[ch]           export-ignore
+*[Pp]isces*             export-ignore
+*[Kk]oala*              export-ignore

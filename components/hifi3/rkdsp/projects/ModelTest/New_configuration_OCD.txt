@@ -1,0 +1,431 @@
+^done,msg="Socket connected"
+XOCD 12.0.9 2018-04-26 01:47:03
+(c) 1999-2019 Cadence Design Systems Inc. All rights reserved.
+[Debug Log 2019-08-20 20:47:09]
+Loading module "gdbstub" v2.0.0.12
+Loading module "jlink" v2.0.2.0
+Using JLINK lib v.64000
+Jlink USB Serial Number: 59400616
+Connected to Jlink Device:
+  Name:'SEGGER J-Link ARM'
+  S/N:59400616
+  Firmware: J-Link V9 compiled May 17 2019 09:50:41
+  Requested/Set TCK: 1000kHz/65534kHz
+Loading module "jtag" v2.0.0.20
+Loading module "xtensa" v2.0.0.48
+Loading module "traxapp" v2.0.0.8
+Loading module "trax" v2.0.1.23
+Starting thread 'GDBStub0'
+Starting thread 'TraxApp'
+Opened GDB socket at port 20000
+traxapp: listening on port 11444
+Initialize XDM driver
+ Total IR bits : 5
+  TAP[0] irwidth = 5
+ Total DR bypass bits : 1
+Warning: Target not under control. No status update performed
+[Software breakpoints not supported in XOCD. GDB will handle breakpoints]
+Error: Couldn't interrupt core!
+Error: Couldn't interrupt core!
+Error:  [Cannot connect]
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Error: [ Target not in DEBUGGED state (INVALID)!]
+ERROR: Command 'p20' failed!
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Warning: Target not under control. No status update performed
+Error: Couldn't interrupt core!
+ERROR: [Error attaching to target!]
+Warning: Target not under control. No status update performed
+XOCD 12.0.9 2018-04-26 01:47:03
+(c) 1999-2019 Cadence Design Systems Inc. All rights reserved.
+[Debug Log 2019-08-20 20:48:36]
+Loading module "gdbstub" v2.0.0.12
+Loading module "jlink" v2.0.2.0
+Using JLINK lib v.64000
+Jlink USB Serial Number: 59400616
+Connected to Jlink Device:
+  Name:'SEGGER J-Link ARM'
+  S/N:59400616
+  Firmware: J-Link V9 compiled May 17 2019 09:50:41
+  Requested/Set TCK: 1000kHz/65534kHz
+Loading module "jtag" v2.0.0.20
+Loading module "xtensa" v2.0.0.48
+Loading module "traxapp" v2.0.0.8
+Loading module "trax" v2.0.1.23
+Starting thread 'GDBStub0'
+Starting thread 'TraxApp'
+traxapp: listening on port 11444
+Opened GDB socket at port 20000
+Initialize XDM driver
+ Total IR bits : 5
+  TAP[0] irwidth = 5
+ Total DR bypass bits : 1
+Warning: Target not under control. No status update performed
+[Software breakpoints not supported in XOCD. GDB will handle breakpoints]
+Error: Exception!
+Error: Exception details: exccause:0xffffffff, excvaddr:0xffffffff, epc:0xffffffff, epcdbg:ffffffff
+Error: Exception!
+Error: Exception details: exccause:0xffffffff, excvaddr:0xffffffff, epc:0xffffffff, epcdbg:ffffffff
+Reading target stated failed!
+Error: [ Target not in DEBUGGED state (STOPPED)!]
+XOCD 12.0.9 2018-04-26 01:47:03
+(c) 1999-2019 Cadence Design Systems Inc. All rights reserved.
+[Debug Log 2019-08-20 20:53:52]
+Loading module "gdbstub" v2.0.0.12
+Loading module "jlink" v2.0.2.0
+Using JLINK lib v.64000
+Jlink USB Serial Number: 59400616
+Connected to Jlink Device:
+  Name:'SEGGER J-Link ARM'
+  S/N:59400616
+  Firmware: J-Link V9 compiled May 17 2019 09:50:41
+  Requested/Set TCK: 1000kHz/65534kHz
+Loading module "jtag" v2.0.0.20
+Loading module "xtensa" v2.0.0.48
+Loading module "traxapp" v2.0.0.8
+Loading module "trax" v2.0.1.23
+Starting thread 'GDBStub0'
+Starting thread 'TraxApp'
+Opened GDB socket at port 20000
+Initialize XDM driver
+traxapp: listening on port 11444
+ Total IR bits : 5
+  TAP[0] irwidth = 5
+ Total DR bypass bits : 1
+Warning: Target not under control. No status update performed
+[Software breakpoints not supported in XOCD. GDB will handle breakpoints]
+Error: Exception!
+Error: Exception details: exccause:0xffffffff, excvaddr:0xffffffff, epc:0xffffffff, epcdbg:ffffffff
+Error: Exception!
+Error: Exception details: exccause:0xffffffff, excvaddr:0xffffffff, epc:0xffffffff, epcdbg:ffffffff
+Reading target stated failed!
+Error: [ Target not in DEBUGGED state (STOPPED)!]
+XOCD 12.0.9 2018-04-26 01:47:03
+(c) 1999-2019 Cadence Design Systems Inc. All rights reserved.
+[Debug Log 2019-08-20 20:57:22]
+Loading module "gdbstub" v2.0.0.12
+Loading module "jlink" v2.0.2.0
+Using JLINK lib v.64000
+Jlink USB Serial Number: 59400616
+Connected to Jlink Device:
+  Name:'SEGGER J-Link ARM'
+  S/N:59400616
+  Firmware: J-Link V9 compiled May 17 2019 09:50:41
+  Requested/Set TCK: 1000kHz/65534kHz
+Loading module "jtag" v2.0.0.20
+Loading module "xtensa" v2.0.0.48
+Loading module "traxapp" v2.0.0.8
+Loading module "trax" v2.0.1.23
+Starting thread 'GDBStub0'
+Starting thread 'TraxApp'
+Opened GDB socket at port 20000
+traxapp: listening on port 11444
+Initialize XDM driver
+ Total IR bits : 5
+  TAP[0] irwidth = 5
+ Total DR bypass bits : 1
+Warning: Target not under control. No status update performed
+[Software breakpoints not supported in XOCD. GDB will handle breakpoints]
+Error: Unsuccessful detach!
+XOCD 12.0.9 2018-04-26 01:47:03
+(c) 1999-2019 Cadence Design Systems Inc. All rights reserved.
+[Debug Log 2019-08-28 10:34:16]
+Loading module "gdbstub" v2.0.0.12
+Loading module "jlink" v2.0.2.0
+Using JLINK lib v.64000
+Jlink USB Serial Number: 59400616
+Connected to Jlink Device:
+  Name:'SEGGER J-Link ARM'
+  S/N:59400616
+  Firmware: J-Link V9 compiled May 17 2019 09:50:41
+  Requested/Set TCK: 1000kHz/65534kHz
+Loading module "jtag" v2.0.0.20
+Loading module "xtensa" v2.0.0.48
+Loading module "traxapp" v2.0.0.8
+Loading module "trax" v2.0.1.23
+Starting thread 'GDBStub0'
+Starting thread 'TraxApp'
+Opened GDB socket at port 20000
+traxapp: listening on port 11444
+Initialize XDM driver
+ Total IR bits : 5
+  TAP[0] irwidth = 5
+ Total DR bypass bits : 1
+Warning: Target not under control. No status update performed
+[Software breakpoints not supported in XOCD. GDB will handle breakpoints]
+XOCD 12.0.9 2018-04-26 01:47:03
+(c) 1999-2019 Cadence Design Systems Inc. All rights reserved.
+[Debug Log 2019-08-28 10:36:23]
+Loading module "gdbstub" v2.0.0.12
+Loading module "jlink" v2.0.2.0
+Using JLINK lib v.64000
+Jlink USB Serial Number: 59400616
+Connected to Jlink Device:
+  Name:'SEGGER J-Link ARM'
+  S/N:59400616
+  Firmware: J-Link V9 compiled May 17 2019 09:50:41
+  Requested/Set TCK: 1000kHz/65534kHz
+Loading module "jtag" v2.0.0.20
+Loading module "xtensa" v2.0.0.48
+Loading module "traxapp" v2.0.0.8
+Loading module "trax" v2.0.1.23
+Starting thread 'GDBStub0'
+Starting thread 'TraxApp'
+Opened GDB socket at port 20000
+Initialize XDM driver
+traxapp: listening on port 11444
+ Total IR bits : 5
+  TAP[0] irwidth = 5
+ Total DR bypass bits : 1
+Warning: Target not under control. No status update performed
+[Software breakpoints not supported in XOCD. GDB will handle breakpoints]
+Error: Exception!
+Error: Exception details: exccause:0xd, excvaddr:0xb0000890, epc:0x300039c5, epcdbg:300005dc
+Error: Op 'xtensa_read_memory' failed, will not retry
+ERROR: Command 'mb0000892,4' failed!
+Error: Lost control over the target
+XOCD 12.0.9 2018-04-26 01:47:03
+(c) 1999-2019 Cadence Design Systems Inc. All rights reserved.
+[Debug Log 2019-08-28 10:40:31]
+Loading module "gdbstub" v2.0.0.12
+Loading module "jlink" v2.0.2.0
+Using JLINK lib v.64000
+Jlink USB Serial Number: 59400616
+Connected to Jlink Device:
+  Name:'SEGGER J-Link ARM'
+  S/N:59400616
+  Firmware: J-Link V9 compiled May 17 2019 09:50:41
+  Requested/Set TCK: 1000kHz/65534kHz
+Loading module "jtag" v2.0.0.20
+Loading module "xtensa" v2.0.0.48
+Loading module "traxapp" v2.0.0.8
+Loading module "trax" v2.0.1.23
+Starting thread 'GDBStub0'
+Starting thread 'TraxApp'
+Opened GDB socket at port 20000
+Initialize XDM driver
+traxapp: listening on port 11444
+ Total IR bits : 5
+  TAP[0] irwidth = 5
+ Total DR bypass bits : 1
+Warning: Target not under control. No status update performed
+[Software breakpoints not supported in XOCD. GDB will handle breakpoints]
+Error: Exception!
+Error: Exception details: exccause:0xffffffff, excvaddr:0xffffffff, epc:0xffffffff, epcdbg:ffffffff
+Error: Exception!
+Error: Exception details: exccause:0xffffffff, excvaddr:0xffffffff, epc:0xffffffff, epcdbg:ffffffff
+Reading target stated failed!
+Error: [ Target not in DEBUGGED state (STOPPED)!]
+^done,msg="Socket connected"
+XOCD 12.0.9 2018-04-26 01:47:03
+(c) 1999-2019 Cadence Design Systems Inc. All rights reserved.
+[Debug Log 2019-08-28 10:42:58]
+Loading module "gdbstub" v2.0.0.12
+Loading module "jlink" v2.0.2.0
+Using JLINK lib v.64000
+Jlink USB Serial Number: 59400616
+Connected to Jlink Device:
+  Name:'SEGGER J-Link ARM'
+  S/N:59400616
+  Firmware: J-Link V9 compiled May 17 2019 09:50:41
+  Requested/Set TCK: 1000kHz/65534kHz
+Loading module "jtag" v2.0.0.20
+Loading module "xtensa" v2.0.0.48
+Loading module "traxapp" v2.0.0.8
+Loading module "trax" v2.0.1.23
+Starting thread 'GDBStub0'
+Starting thread 'TraxApp'
+Opened GDB socket at port 20000
+traxapp: listening on port 11444
+Initialize XDM driver
+ Total IR bits : 5
+  TAP[0] irwidth = 5
+ Total DR bypass bits : 1
+Warning: Target not under control. No status update performed
+[Software breakpoints not supported in XOCD. GDB will handle breakpoints]
+XOCD 12.0.9 2018-04-26 01:47:03
+(c) 1999-2019 Cadence Design Systems Inc. All rights reserved.
+[Debug Log 2019-08-28 10:45:23]
+Loading module "gdbstub" v2.0.0.12
+Loading module "jlink" v2.0.2.0
+Using JLINK lib v.64000
+Jlink USB Serial Number: 59400616
+Connected to Jlink Device:
+  Name:'SEGGER J-Link ARM'
+  S/N:59400616
+  Firmware: J-Link V9 compiled May 17 2019 09:50:41
+  Requested/Set TCK: 1000kHz/65534kHz
+Loading module "jtag" v2.0.0.20
+Loading module "xtensa" v2.0.0.48
+Loading module "traxapp" v2.0.0.8
+Loading module "trax" v2.0.1.23
+Starting thread 'GDBStub0'
+Starting thread 'TraxApp'
+Opened GDB socket at port 20000
+Initialize XDM driver
+traxapp: listening on port 11444
+ Total IR bits : 5
+  TAP[0] irwidth = 5
+ Total DR bypass bits : 1
+Warning: Target not under control. No status update performed
+[Software breakpoints not supported in XOCD. GDB will handle breakpoints]
+XOCD 12.0.9 2018-04-26 01:47:03
+(c) 1999-2019 Cadence Design Systems Inc. All rights reserved.
+[Debug Log 2019-08-28 10:47:12]
+Loading module "gdbstub" v2.0.0.12
+Loading module "jlink" v2.0.2.0
+Using JLINK lib v.64000
+Jlink USB Serial Number: 59400616
+Connected to Jlink Device:
+  Name:'SEGGER J-Link ARM'
+  S/N:59400616
+  Firmware: J-Link V9 compiled May 17 2019 09:50:41
+  Requested/Set TCK: 1000kHz/65534kHz
+Loading module "jtag" v2.0.0.20
+Loading module "xtensa" v2.0.0.48
+Loading module "traxapp" v2.0.0.8
+Loading module "trax" v2.0.1.23
+Starting thread 'GDBStub0'
+Starting thread 'TraxApp'
+Opened GDB socket at port 20000
+traxapp: listening on port 11444
+Initialize XDM driver
+ Total IR bits : 5
+  TAP[0] irwidth = 5
+ Total DR bypass bits : 1
+Warning: Target not under control. No status update performed
+[Software breakpoints not supported in XOCD. GDB will handle breakpoints]
+XOCD 12.0.9 2018-04-26 01:47:03
+(c) 1999-2019 Cadence Design Systems Inc. All rights reserved.
+[Debug Log 2019-08-28 10:51:13]
+Loading module "gdbstub" v2.0.0.12
+Loading module "jlink" v2.0.2.0
+Using JLINK lib v.64000
+Jlink USB Serial Number: 59400616
+Connected to Jlink Device:
+  Name:'SEGGER J-Link ARM'
+  S/N:59400616
+  Firmware: J-Link V9 compiled May 17 2019 09:50:41
+  Requested/Set TCK: 1000kHz/65534kHz
+Loading module "jtag" v2.0.0.20
+Loading module "xtensa" v2.0.0.48
+Loading module "traxapp" v2.0.0.8
+Loading module "trax" v2.0.1.23
+Starting thread 'GDBStub0'
+Starting thread 'TraxApp'
+Opened GDB socket at port 20000
+Initialize XDM driver
+traxapp: listening on port 11444
+ Total IR bits : 5
+  TAP[0] irwidth = 5
+ Total DR bypass bits : 1
+Warning: Target not under control. No status update performed
+[Software breakpoints not supported in XOCD. GDB will handle breakpoints]
+Error: Exception!
+Error: Exception details: exccause:0xffffffff, excvaddr:0xffffffff, epc:0xffffffff, epcdbg:ffffffff
+Error: Exception!
+Error: Exception details: exccause:0xffffffff, excvaddr:0xffffffff, epc:0xffffffff, epcdbg:ffffffff
+Reading target stated failed!
+Error: [ Target not in DEBUGGED state (STOPPED)!]
+XOCD 12.0.9 2018-04-26 01:47:03
+(c) 1999-2019 Cadence Design Systems Inc. All rights reserved.
+[Debug Log 2019-08-28 16:48:49]
+Loading module "gdbstub" v2.0.0.12
+Loading module "jlink" v2.0.2.0
+Using JLINK lib v.64000
+Jlink USB Serial Number: 59400616
+Connected to Jlink Device:
+  Name:'SEGGER J-Link ARM'
+  S/N:59400616
+  Firmware: J-Link V9 compiled May 17 2019 09:50:41
+  Requested/Set TCK: 1000kHz/65534kHz
+Loading module "jtag" v2.0.0.20
+Loading module "xtensa" v2.0.0.48
+Loading module "traxapp" v2.0.0.8
+Loading module "trax" v2.0.1.23
+Starting thread 'GDBStub0'
+Starting thread 'TraxApp'
+Opened GDB socket at port 20000
+Initialize XDM driver
+traxapp: listening on port 11444
+ Total IR bits : 5
+  TAP[0] irwidth = 5
+ Total DR bypass bits : 1
+Warning: Target not under control. No status update performed
+[Software breakpoints not supported in XOCD. GDB will handle breakpoints]
+Error: Exception!
+Error: Exception details: exccause:0xffffffff, excvaddr:0xffffffff, epc:0xffffffff, epcdbg:ffffffff
+Error: Exception!
+Error: Exception details: exccause:0xffffffff, excvaddr:0xffffffff, epc:0xffffffff, epcdbg:ffffffff
+Reading target stated failed!
+Error: [ Target not in DEBUGGED state (STOPPED)!]

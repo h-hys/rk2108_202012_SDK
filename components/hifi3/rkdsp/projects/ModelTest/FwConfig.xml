@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HifiFirmwareGen>
+	<Firmware>
+		<Version>V0.1.0</Version>
+		<CoreName>tag_corename</CoreName>
+		<ToolsPath>tag_toolspath</ToolsPath>
+		<Compatible>ModelTest</Compatible>
+		<ExecutableFile>input\ModelTest</ExecutableFile>
+		<MaxCodeSize>0x10000</MaxCodeSize>
+		<MaxDataSize>0x80000</MaxDataSize>
+		<Image>
+			<Id>2046</Id>
+			<Name>MAIN</Name>
+			<Type>Permanent</Type>
+		</Image>
+	</Firmware>
+</HifiFirmwareGen>

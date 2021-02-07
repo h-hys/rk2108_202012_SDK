@@ -1,0 +1,5 @@
+hifi3相关软件和配置包存于：
+链接：https://pan.baidu.com/s/1bbuMY627-ChThMj0MgDyjQ
+提取码：ky6q
+hifi相关软件和指令手册：<安装目录>/XtDevTools/downloads/RI-2018.0/docs/index.html
+hifi的intrinsics指令集：<安装目录>/XtDevTools/install/builds/RG-2018.9-win32/HiFi3Dev181203/html/ISA/NewISAhtml/index.html
